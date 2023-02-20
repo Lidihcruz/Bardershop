@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<HTML>
+   <HEAD>
+       <META CHARSET="UTF-8">
+       <TITLE> Produtos-Barbearia</TITLE>
+       <link rel="stylesheet" href="reset.css">
+       <link rel="stylesheet" href="style.css">
+       <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+
+   </HEAD>
+
+   	<BODY>
+	       <header>
+	       	<div class="caixa">
+		       <h1><img src="logobarbearia.png"  width="150" height="150" ></h1>
+			     <nav>
+			       	 <ul>
+			       	  <li><a href="index.html">Home</a></li>
+			       	  <li><a href="produtos.html">Produtos</a></li>
+			          <li><a href="contato.html">Contato</a></li>
+			         </ul>
+			     </nav>
+		      </div>
+	       </header>
+
+         <main>
+         	<ul class="produtos">
+
+	       	  <li>
+	       	  	<h2 class="texto-descricao">CABELO</h2>
+	       	  	<img src="cabelo.png">
+	       	  	<p class="texto-descricao">Tesoura e Máquina</p></br>
+	       	  	<p>............................</p>
+	       	  	<p class="texto-descricao">R$ 30,00</p> </br>
+	       	  	
+	       	  </li>
+	       	  
+	       	  <li>
+	       	  	<h2 class="texto-descricao">BARBA </h2>
+	       	  	<img src="barba.png">
+	       	  	<p class="texto-descricao">Navalha e Máquina</p></br>
+	       	  	<p>............................</p>
+	       	  	<p class="texto-descricao"> R$ 25,00</p></br>
+	       	  </li>
+	       	  
+	       	  <li>
+	       	  	<h2 class="texto-descricao">CABELO E BARBA</h2>
+	       	  	<img src="cabeloebarba.png">
+	       	  	<p class="texto-descricao">Pacote completo</p></br>
+	       	  	<p>............................</p>
+	       	  	<p class="texto-descricao">R$ 50,00</p></br>
+	       	  </li>
+
+       	   </ul>
+         </main>
+
+         <footer>
+         	<p> Tradicional BARDER SHOP&copy 2023 CNPJ: 00.000.000/0001-00<br>
+                R. Privet Drive, 4– Little Whinging, condado de Surrey – Bracknell, 00000-000
+                <br>
+                E-mail: armariosobaescada@gmail.com Tel.: (xx) xxxx-xxxx </p>
+                <img src="logobarbearia.png" width="100" height="100" >
+         	
+         </footer>
+   	</BODY>
+</HTML>
