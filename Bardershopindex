@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+     <head>
+	     <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width">
+         <title>Barder Shop</title>
+         <link rel="stylesheet" href="reset.css">
+         <link rel="stylesheet" href="style-home.css">
+         <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     </head>
+     <body>
+        <header>
+            
+        <div class="caixa">  
+        <h1><img src="logobarbearia.png" width="150" height="150"></h1>     
+          <nav>
+            <ul id="menu-h">
+              <li><a href="index.html"> Home </a></li>
+              <li><a href="produtos.html"> Produtos </a></li>
+              <li><a href="contato.html"> Contato </a></li>  
+            </ul> 
+          </nav>
+        </div>
+
+
+        </header>
+
+         <img id="banner" src="banner.jpg">
+         <main>
+                 <div class="Principal">
+                   <h2 class="titulo-centralizado">NOSSA MARCA</h2><br>
+
+                   <p>Localizada no coração da cidade a Barder Shop traz para o mercado o que há de melhor para o seu cabelo e barba.<br> Fundada em 2019, a Barder Shop já é destaque na cidade e conquista novos clientes a cada dia.</p><br>
+
+                   <p id="missao"><em><strong>Nossa missão</strong>:"Proporcionar auto-estima e qualidade de vida aos clientes".</em></p><br>
+
+                   <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda.<br> O atendimento possui padrão de <em> <strong>excelência</strong></em> e <em><strong>agilidade</strong></em>, garantindo qualidade e satisfação dos nossos clientes.</p>
+
+                   <p> Entre toalhas quentes e massagem facial, os melhores cremes e espumas preparam o rosto dos nossos clientes.<br> E hoje, eles e nossos visitantes ainda podem aproveitar o espaço da nossa cervejaria.</p>
+                 </div>
+
+                 <div class="Benefícios"><br>
+                  
+                  <img src="beneficios.jpg" class="imagembeneficios">
+                   <ul id="listabeneficios">
+                    <h3 id="titulobeneficiosb">Benefícios</h3><br>
+                    <li class="itens"> <i class="tiny material-icons">check</i>&nbsp;&nbsp;Atendimento aos clientes;</li>
+                    <li class="itens"><i class="tiny material-icons">check</i>&nbsp;&nbsp;Espaço diferenciado;</li>
+                    <li class="itens"><i class="tiny material-icons">check</i>&nbsp;&nbsp;Localização;</li>
+                    <li class="itens"><i class="tiny material-icons">check</i>&nbsp;&nbsp;Profissionais qualificados;</li>
+                    <li class="itens"><i class="tiny material-icons">check</i>&nbsp;&nbsp;Pontualidade;</li>
+                    <li class="itens"><i class="tiny material-icons">check</i>&nbsp;&nbsp;Limpeza;</li>
+                    <li class="itens"><i class="tiny material-icons">check</i>&nbsp;&nbsp;Sala de cortes Kids;</li>
+                    <li class="itens"><i class="tiny material-icons">check</i>&nbsp;&nbsp;Sala do noivo;</li>
+                    <li class="itens"><i class="tiny material-icons">check</i>&nbsp;&nbsp;Relaxamento capilar;</li>
+                    <li class="itens"><i class="tiny material-icons">check</i>&nbsp;&nbsp;Limpeza de pele.</li>
+                  
+                   </ul>
+                   
+                    <div class= "video.mp4"><BR><BR>
+                        <p class="titulo-centralizado"> CONFIRA O NOSSO TRABALHO</p><BR><BR>
+                        <iframe width="900" height="600" src="videobardershop.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>    
+                        </iframe>
+                    </div>
+
+                 </div>
+                 
+                 <section clas="mapa">
+                    <h4 class="titulo-centralizado">NOSSA LOCALIZAÇÃO</h4><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2473.3066864300667!2d-0.4173868736323811!3d51.69083260132579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1676487618449!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+
+                </section>
+        <div>
+            <footer>
+                <p>Tradicional BARDER SHOP&copy 2023 CNPJ: 00.000.000/0001-00<br>
+                R. Privet Drive, 4– Little Whinging, condado de Surrey – Bracknell, 00000-000
+                <br>
+                E-mail: armariosobaescada@gmail.com Tel.: (xx) xxxx-xxxx </p> 
+                <img src="logobarbearia.png" width="100" height="100"> 
+            </footer>
+ 
+        </div>
+	   </body>
+
+</html>
