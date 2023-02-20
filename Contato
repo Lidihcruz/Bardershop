@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<HTML>
+   <HEAD>
+       <META CHARSET="UTF-8">
+       <TITLE>Contato</TITLE>
+       <link rel="stylesheet" href="reset.css">
+       <link rel="stylesheet" href="style.css">
+       <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+
+   </HEAD>
+
+   	<BODY>
+	       <header>
+	       	<div class="caixa">
+		       <h1><img src="logobarbearia.png" width="150" height="150" ></h1>
+			     <nav>
+			       	 <ul>
+			       	  <li><a href="index.html">Home</a></li>
+			       	  <li><a href="produtos.html">Produtos</a></li>
+			           <li><a href="contato.html">Contato</a></li>
+			         </ul>
+			     </nav>
+		      </div>
+	       </header>
+
+	       <main>
+	       	<form>
+	       		<label for="nomesobrenome">Nome e sobrenome</label>
+	       		<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+	       		<label for="email">E-mail</label>
+	       		<input type="email" id="email" class="input-padrao" required>
+
+	       		<label for="telefone">Telefone</label>
+	       		<input type="tel" id="telefone" class="input-padrao" required>
+
+	       		<label for= "Solicitação">Solicitação</label>
+	       		<textarea cols= "64" rows="10" id= "Solicitação" class="input-padrao" required></textarea>
+
+	       		<div>
+		       		<p>Como prefere o nosso contato?</p><br>
+		       		<label for="radio-e-mail"><input type="radio" name= "contato" value="E-mail" id="radio-e-mail">E-mail</label>
+		       		
+		       		<label for="radio-telefone"><input type="radio" name= "contato" value="Telefone" id="radio-telefone">Telefone</label>
+		       		
+		       		<label for="radio-whatsapp"><input type="radio" name= "contato" value="Whatsapp" id="radio-whatsapp">Whatsapp</label>
+		       		
+	       	   </div>
+
+	       	   <div>
+		       	   <p>Qual o melhor horário para contato?</p>	
+	               <select>
+	               <option>Manhã</option>
+	               <option>Tarde</option>
+	               <option>Noite</option>
+	               </select>
+               </div>
+
+	       	   <label class="checkbox"><input type="checkbox">Gostaria de receber as novidades por E-mail?</label>
+	       	   
+	       		<input type="submit" value="Enviar formulário" class="enviar">
+
+
+	       	</form>
+
+	       </main>
+
+	       <footer>
+         	<p> Tradicional BARDER SHOP&copy 2023 CNPJ: 00.000.000/0001-00<br>
+                R. Privet Drive, 4– Little Whinging, condado de Surrey – Bracknell, 00000-000
+                <br>
+                E-mail: armariosobaescada@gmail.com Tel.: (xx) xxxx-xxxx </p>
+                <img src="logobarbearia.png" width="100" height="100" >
+         	
+         </footer>
+   	</BODY>
+</HTML>
